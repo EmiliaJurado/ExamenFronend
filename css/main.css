@@ -1,0 +1,24 @@
+/*Se creo este archivo para darle estilos a la imgen del juego,para ello, se creo la carpeta css con el archivo main.css*/
+body {  /*Vamos a darle un estilo al cuerpo de nuestro proyecto */
+  background: #34495e; /*Agregamos un color de fondo en nuestro body*/
+  color: #fff; /*Agregamos color en los textos*/
+  padding: 0; /*Quitamos el padding, para que no salga sobrante de pagina*/
+  margin: 0; /*Quitamos el margen para que no salga sobrante de pagina*/
+  height: 100vh;/*Vamos a agregar esta propiedad para que este en el centro del body*/
+  display: flex;/*Vamos a centrar nuestro contenido*/
+  justify-content: center; /*Agregamos esta propiedad*/
+  align-items: center;/*Agregamos esta propiedad*/
+   flex-direction:column;/*Vamos a centrar las letras*/
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  display: block;
+}

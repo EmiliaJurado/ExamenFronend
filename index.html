@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!--Crearemos una estructura Basica de HTML-->
+<html>
+  <head>
+    <meta charset="utf-8"><!--Agregamos un titulo -->
+    <title>Treasure Map</title>
+    <link rel="stylesheet" href="css/main.css"> <!--Enlasamos la carpeta de estilos,con su archivo estilos-->
+  </head>
+  <body>
+
+    <h1>Find The Treasure</h1> <!--Creamos un titulo, indicando que es lo que hara en el juego  -->
+    <!--Tenemos que crear una carpeta dentro de nuestro arbol de trabajo con el nombre "img".
+    Tenemos que descargar la imagen que seria del juego y guardarla en la carpeta de img dentro 
+    de nuestro proyecto. Agregamos la imagen en la etiqueta <img> y colocamos la ruta de la imagen img/treasuremap.png
+    he igual clocamos el ancho y el largo de la imagen, como una id,para referenciarla en el JavaScript
+    NOTA:Para darle estilos a la imgen, crearemos la carpeta css con el archivo main.css -->
+    <img src="img/treasuremap.png" width="400" height="400" id="map" draggable="false">
+
+    <p id="distance"></p><!--Crearemos este id para referenciar en el JavaScrip, cuado haya una distancia a la pista-->
+
+    <!--Tenemos que crear una crapeta con el nombre: JS, y dentro de ella, vamos a crear dos archivos
+    el primero se va a llamar: herlper.js y  el segundo: game.js-->
+    <script src="js/helper.js" charset="utf-8"></script> <!--Vamos a enlazar nuestro JavaScrip de lar carpetas que 
+    hemos creado, parque pueda hacer toda la programacion-->
+    <script src="js/game.js" charset="utf-8"></script><!--Vamos a enlazar nuestro JavaScrip de lar carpetas que 
+      hemos creado, parque pueda hacer toda la programacion-->
+
+  </body>
+</html>
+
